@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1705.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursiveSum", "RecursiveSum\RecursiveSum.csproj", "{18D02311-BB55-4309-A2B6-9C8172AEE213}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursiveSumTest", "RecursiveSumTest\RecursiveSumTest.csproj", "{70B20669-717A-45F3-B6D7-A92B9113E684}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18D02311-BB55-4309-A2B6-9C8172AEE213}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18D02311-BB55-4309-A2B6-9C8172AEE213}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18D02311-BB55-4309-A2B6-9C8172AEE213}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18D02311-BB55-4309-A2B6-9C8172AEE213}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70B20669-717A-45F3-B6D7-A92B9113E684}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70B20669-717A-45F3-B6D7-A92B9113E684}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70B20669-717A-45F3-B6D7-A92B9113E684}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70B20669-717A-45F3-B6D7-A92B9113E684}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {210530BB-2BDE-41D0-AE7B-F1237FAAC924}
+	EndGlobalSection
+EndGlobal
