@@ -4,14 +4,15 @@
 	{
 		public static IList<int> QuickSort(IList<int> ints)
 		{
-			if(ints == null || ints.Count == 0 || ints.Count == 1)
+			if(ints == null || ints.Count < 2)
 			{
 				return ints;
 			}
 
-			var pivot = ints[0];
+			int pivotIndex = Random.Shared.Next(0, ints.Count);
+			var pivot = ints[pivotIndex];
 
-			ints.RemoveAt(0);
+			ints.RemoveAt(pivotIndex);
 
 			var lessThanPivot = ints.Where(num => num < pivot).ToList();
 			var moreThanPivot = ints.Where(num => num >= pivot).ToList();
