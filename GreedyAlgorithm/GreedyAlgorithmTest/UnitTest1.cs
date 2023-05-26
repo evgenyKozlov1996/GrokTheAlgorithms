@@ -14,7 +14,7 @@ public class Tests
     {
         // Arrange
         var requiredStates = new string[] {
-            "mt", "wa", "or", "id", "nv", "ut"
+            "mt", "wa", "or", "id", "nv", "ut", "ca", "az"
         };
 
         var stations = new Dictionary<string, string[]>
