@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1705.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicProgramming", "DynamicProgramming\DynamicProgramming.csproj", "{38CE947D-A0C0-4B9B-87AE-406F6F186336}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicProgrammingTests", "DynamicProgrammingTests\DynamicProgrammingTests.csproj", "{8A71FEB2-112C-4AD4-9D72-09464E9FAF98}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38CE947D-A0C0-4B9B-87AE-406F6F186336}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38CE947D-A0C0-4B9B-87AE-406F6F186336}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38CE947D-A0C0-4B9B-87AE-406F6F186336}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38CE947D-A0C0-4B9B-87AE-406F6F186336}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A71FEB2-112C-4AD4-9D72-09464E9FAF98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A71FEB2-112C-4AD4-9D72-09464E9FAF98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A71FEB2-112C-4AD4-9D72-09464E9FAF98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A71FEB2-112C-4AD4-9D72-09464E9FAF98}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0098FE7-D380-43C7-AF48-19B3BC0F38B7}
+	EndGlobalSection
+EndGlobal
